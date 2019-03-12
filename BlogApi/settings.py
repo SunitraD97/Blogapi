@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'hk%t6+))ni5&n^!89#hs7#1h81=cuql0teo2i1iyb4tj7(#)kx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'apipostblog.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'blogapiat.herokuapp.com']
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': (
