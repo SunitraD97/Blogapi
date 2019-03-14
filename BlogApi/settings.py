@@ -27,6 +27,32 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'blogapiat.herokuapp.com']
 
+CORS_ORIGIN_WHITELIST =(
+    'localhost:4200'
+)
+
+CORS_ALLOW_HEADERS = (
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+)
+
+CORS_ALLOW_METHODS = (
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+)
+
+
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': (
 #         'rest_framework.authentication.TokenAuthentication',
